@@ -1,0 +1,25 @@
+@media screen and (min-width: 577px) and (max-width: 820px) {
+  .nav-item {
+    width: 20%;
+  }
+  #nav-bar img {
+    display: none;
+  }
+  #nav-bar span {
+    padding: 0;
+    width: 5%;
+  }
+
+  #job-info .grid-item {
+    margin-bottom: 24px;
+  }
+  .projects {
+    gap: 0px;
+  }
+
+  .project-info {
+  }
+  .project-info table {
+    padding: 6px;
+  }
+}

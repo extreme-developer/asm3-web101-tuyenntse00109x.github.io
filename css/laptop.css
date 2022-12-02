@@ -1,0 +1,16 @@
+@media screen and (min-width: 769px) {
+  #job-info > .container-fluid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    gap: 20px;
+  }
+  .nav-item:nth-child(4) {
+    border-left: none;
+  }
+  .grid-item {
+    margin-bottom: 16px;
+  }
+}
+
+/* Project site  */

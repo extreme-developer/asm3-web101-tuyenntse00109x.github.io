@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px) {
+  #banner {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #nav-bar {
+    margin: 12px 0;
+  }
+  #nav-bar span {
+    display: none;
+  }
+
+  .nav-item {
+    border: none;
+    padding: 12px 36px;
+    text-align: left;
+  }
+  .grid-item {
+    margin-bottom: 16px;
+  }
+
+  .project-info {
+    margin-bottom: 16px;
+  }
+
+  /* 7. Chứng chỉ - Giải thưởng */
+  #certificate {
+    padding: 20px 11%;
+  }
+  .certificates {
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 0;
+  }
+  .certificates:last-of-type {
+    border-bottom: 0;
+  }
+
+  .cert-details {
+    display: flex;
+    padding-bottom: 32px;
+  }
+  .cert-details:nth-child(1) {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cert-details:nth-child(2) {
+    padding-top: 32px;
+    border-left: 0;
+  }
+  #last-cert {
+    border-bottom: 0;
+  }
+
+  #footer span {
+    display: none;
+  }
+  #footer ul > li {
+    margin: auto 6px;
+  }
+}
