@@ -32,7 +32,7 @@ i {
 /* 1. Banner */
 #banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(230, 179, 86, 0.6)),
-    url(/images/banner.jpg);
+    url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
